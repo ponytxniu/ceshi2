@@ -1,6 +1,6 @@
 # Chatbot UI
 
-Chatbot UI 是一个用于AI模型的开源聊天UI.
+Chatbot UI 是一个用于AI模型的开源聊天UI
 
 查看[演示](https://twitter.com/mckaywrigley/status/1640380021423603713?s=46&t=AowqkodyK6B4JccSOxSPew).
 
@@ -8,9 +8,9 @@ Chatbot UI 是一个用于AI模型的开源聊天UI.
 
 ## 更新
 
-Chatbot UI 将随着时间的推移而更新.
+Chatbot UI 将随着时间的推移而更新
 
-期待接下来频繁的改进.
+期待接下来频繁的改进
 
 **接下来:**
 
@@ -21,7 +21,7 @@ Chatbot UI 将随着时间的推移而更新.
 
 **Vercel**
 
-使用vercel托管您的实时版本的聊天机器人UI.
+使用vercel托管您的实时版本的聊天机器人UI
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmckaywrigley%2Fchatbot-ui)
 
@@ -30,7 +30,7 @@ Chatbot UI 将随着时间的推移而更新.
 本地构建:
 
 ```shell
-docker build -t chatgpt-ui .
+docker build -t chatgpt-ui 
 docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 chatgpt-ui
 ```
 
@@ -61,9 +61,9 @@ npm i
 OPENAI_API_KEY=YOUR_KEY
 ```
 
-> 您可以设置 `OPENAI_API_HOST` 对官方OpenAI主机的访问受到限制或不可用,从而允许用户根据自己的特定的需求配置替代主机.
+> 您可以设置 `OPENAI_API_HOST` 对官方OpenAI主机的访问受到限制或不可用,从而允许用户根据自己的特定的需求配置替代主机
 
-> 此外,如果您有多个OpenAI组织,您可以设置`OPENAI_ORGANIZATION` 为指定一个.
+> 此外,如果您有多个OpenAI组织,您可以设置`OPENAI_ORGANIZATION` 为指定一个
 
 **4. 运行应用程序**
 
@@ -73,7 +73,7 @@ npm run dev
 
 **5. 使用它**
 
-您可以开始跟它聊天了.
+您可以开始跟它聊天了
 
 ## 配置
 
@@ -94,7 +94,7 @@ npm run dev
 | GOOGLE_CSE_ID                     |                                | 请看 [自定义搜索 JSON API 文档][GCSE]                                                                                          |
 
 如果您不提供 OpenAI API 密钥 `OPENAI_API_KEY`, 用户将必须提供自己的密钥
-如果您没有 OpenAI API 密钥，可以 [在此处](https://platform.openai.com/account/api-keys)获取.
+如果您没有 OpenAI API 密钥，可以 [在此处](https://platform.openai.com/account/api-keys)获取
 
 ## 联系
 
